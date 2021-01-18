@@ -1,0 +1,53 @@
+# New Content
+
+## All Fired Up (Quest)
+
+* Players who have completed Priest in Peril and have 43 firemaking can head over to King Roald in Varrock Palace to start the All Fired Up quest, which rewards Firemaking XP and access to the All Fired Up Minigame!
+
+## All Fired Up(Minigame)
+
+* Players who have completed the All Fired Up quest can now participate in the All Fired Up minigame. Rewards are granted based off how many beacons a player is able to get lit at the same time. Beacons have various requirements in order to unlock, for example the Goblin Village beacon requires completion of Goblin Diplomacy, the Monastery/Black Knight's Fortress beacon requires joining the monastery, and various beacons require crafting or smithing levels to repair objects or shortcuts needed to access the beacon.
+
+* | 6 beacons  | Ring of Fire (2% Bonus FM XP)                                                                                                          |
+  | ---------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+  | 10 beacons | Flame Gloves (2% Bonus FM XP)                                                                                                          |
+  | 14 beacons | Inferno Adze (Same chopping speed as dragon axe, chance to burn logs for FM xp while chopping. Can be used as a rune pickaxe as well.) |
+
+* The minigame also gives excellent experience from lighting beacons. Roughly the same as follows:
+
+* | Beacons Lit | Cumulative XP Gained |
+  | ----------- | -------------------- |
+  | 1           | 824.6                |
+  | 2           | 2,682.8              |
+  | 3           | 4,864                |
+  | 4           | 7,192.1              |
+  | 5           | 9,536                |
+  | 6           | 12,380               |
+  | 7           | 15,215.2             |
+  | 8           | 18,227.1             |
+  | 9           | 21,322.2             |
+  | 10          | 25,405.7             |
+  | 11          | 28,895.9             |
+  | 12          | 32,570.6             |
+  | 13          | 36,313.7             |
+  | 14          | 41,579.5             |
+  
+  * Lighting all 14 beacons on x10 xp rewards roughly 415,795 experience.
+  
+  * It's worth noting that several beacons are in the wilderness, so you would get the full bonus of Firemaking brawlers for those beacons.
+
+
+
+# Bugfixes
+
+* Fixed a bug with canoe stations that would prevent you from having multiple stations at different stages of construction
+
+
+
+# Core Changes
+
+## New Varp System
+
+* Varp system allows us to properly make use of varbits that are used to control a lot of client sided things (like beacons.) We could sort of use them before but it was a messy and incomplete solution. This new system works perfectly.
+
+* Server can now read varp/varbit information from the cache more effectively
